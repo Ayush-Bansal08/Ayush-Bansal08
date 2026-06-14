@@ -148,10 +148,6 @@
 ---
 
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote"/>
-</p>
-
-<p align="center">
   <b>🤝 Open to collaborations on AI, Full-Stack & Web3 projects. Let's build something impactful!</b>
 </p>
 
