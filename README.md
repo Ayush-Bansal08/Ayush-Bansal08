@@ -13,16 +13,12 @@
 
 ## 🚀 About Me
 
-```python
-ayush = {
-    "role":       ["SWE Intern @ Finn (Airforge Tech)", "AI/ML Research Intern @ UNSW Sydney"],
-    "education":  "B.Tech ECE @ LNM Institute of Information and Technology (2024–2028)",
-    "achievement": "🏆 LNMHacks 8.0 Partner Prize Winner ($600) — 1st place, 500+ participants",
-    "focus":      ["Full-Stack Engineering", "LLM / AI Agents", "Web3 & Blockchain"],
-    "currently":  "Building LLM-powered agent workflows & MLOps pipelines",
-    "open_to":    "SWE / AI / Full-Stack roles & research collaborations"
-}
-```
+- 🎓 B.Tech ECE @ LNM Institute of Information and Technology (2024–2028)
+- 💼 SWE Intern @ Finn (Airforge Tech) · AI/ML Research Intern @ UNSW Sydney
+- 🏆 LNMHacks 8.0 Partner Prize Winner — $600 · 1st place, 500+ participants
+- 🔭 Currently building LLM-powered agent workflows & MLOps pipelines
+- 🎯 Focus: Full-Stack Engineering · LLM / AI Agents · Web3 & Blockchain
+- 💬 Open to SWE / AI / Full-Stack roles & research collaborations
 
 ---
 
@@ -133,11 +129,7 @@ ayush = {
 
 <div align="center">
 
-| 🥇 Hackathon | 🎓 Research | 💼 Industry |
-|:---:|:---:|:---:|
-| **LNMHacks 8.0 Winner** | **UNSW Sydney** | **Finn (Airforge Tech)** |
-| Partner Prize · $600 | International Research Intern | Production SWE Intern |
-| 1st place · 500+ participants | Under Dr. Rohitash Chandra | AI Voice Agents & Automation |
+🥇 **LNMHacks 8.0** — Partner Prize Winner · **$600** · 1st place among **500+ participants**
 
 </div>
 
@@ -162,3 +154,4 @@ ayush = {
 <p align="center">
   <b>🤝 Open to collaborations on AI, Full-Stack & Web3 projects. Let's build something impactful!</b>
 </p>
+
