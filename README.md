@@ -128,9 +128,16 @@ ayush = {
 
 ---
 
-## 🏆 GitHub Trophies
+## 🏆 Achievements
+
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Ayush-Bansal08&theme=tokyonight&no-frame=true&row=1&column=7" alt="trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=Ayush-Bansal08&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" alt="trophies"/>
+</p>
+
+<p align="center">
+  🥇 <b>LNMHacks 8.0</b> — Partner Prize Winner · $600 · 1st place among 500+ participants &nbsp;|&nbsp;
+  🎓 <b>UNSW Sydney</b> — International Research Intern &nbsp;|&nbsp;
+  💼 <b>Finn (Airforge)</b> — Production SWE Intern
 </p>
 
 ---
