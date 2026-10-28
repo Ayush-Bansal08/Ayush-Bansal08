@@ -1,110 +1,83 @@
-<div align="center">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Ayush-Bansal08/Ayush-Bansal08/main/assets/banner.svg" alt="Ayush Bansal — Software Engineer. Backend systems, cloud platforms, applied AI. Build. Verify. Ship." width="100%" />
+</p>
 
-# Ayush Bansal
+<p align="center">
+  <a href="https://www.linkedin.com/in/ayush-bansal-21b12a311/">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="mailto:ab262133@gmail.com">Email</a> &nbsp;·&nbsp;
+  <a href="https://github.com/Ayush-Bansal08?tab=repositories">All repositories</a>
+</p>
 
-### Software Engineer · Cloud & Platform Engineering · Applied AI
+## Hi, I'm Ayush
 
-**I build systems that ship reliably — from backend services and AI workflows to Kubernetes platforms and deployment automation.**
+I build backend services, Kubernetes platforms, and AI tools with an emphasis on **verification, failure handling, and clear operational trade-offs**.
 
-[![GitHub](https://img.shields.io/badge/GitHub-Ayush--Bansal08-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ayush-Bansal08)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayush-bansal-21b12a311/)
-[![Email](https://img.shields.io/badge/Email-Get_in_touch-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ab2621339@gmail.com)
+Previously a **Software Engineering Intern at Finn (Airforge Tech)** and an **AI/ML Research Intern at UNSW Sydney**. Studying Electronics & Communication Engineering at **LNMIIT Jaipur, Class of 2028**.
 
-*B.Tech, Electronics & Communication Engineering · LNMIIT Jaipur · Class of 2028*
+**Open to software engineering internships and opportunities in backend, cloud, platform, and AI engineering.**
 
-**Open to software engineering, backend, cloud infrastructure, platform engineering and AI engineering opportunities.**
+## Three projects to start with
 
-</div>
+### 01 / [Helios — Kubernetes Developer Platform](https://github.com/Ayush-Bansal08/k8s-project)
 
----
+**Go · Kubernetes · ArgoCD · Argo Rollouts · Prometheus · Azure**
 
-## Selected work
+A platform for deploying containerized workloads through GitOps, evaluating canary releases against Prometheus metrics, and provisioning preview environments with a custom Go operator.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+- **The implementation:** a `PreviewEnvironment` custom resource creates a namespace, Deployment, Service, and Ingress; deletion triggers finalizer-based namespace cleanup.
+- **The delivery path:** declarative ArgoCD applications, staged canary rollouts, and a Prometheus success-rate analysis template.
+- **The scope:** a portfolio platform using Online Boutique and Podinfo as existing workloads.
 
-### [☸️ Helios — Kubernetes Developer Platform](https://github.com/Ayush-Bansal08/k8s-project)
+[Go controller](https://github.com/Ayush-Bansal08/k8s-project/blob/main/operator/internal/controller/previewenvironment_controller.go) · [Canary analysis](https://github.com/Ayush-Bansal08/k8s-project/blob/main/apps/podinfo-canary/analysistemplate.yaml) · [Architecture](https://github.com/Ayush-Bansal08/k8s-project#-architecture) · [Video walkthrough](https://drive.google.com/file/d/14-x45ra9iRBMOevZ0CqfLridM_HQqiSa/view?usp=sharing)
 
-**Platform Engineering · Go · Kubernetes · ArgoCD · Azure**
+### 02 / [DockHealer — Dockerfile Generation with Verification](https://github.com/Ayush-Bansal08/Dockhealer)
 
-Built an internal developer platform with **GitOps deployment**, **Prometheus-driven canary rollouts and rollback**, and a **custom Go Kubernetes Operator** that provisions isolated per-PR preview environments.
+**Python · Docker · Ollama · Terraform · pytest**
 
-[**Explore code & architecture →**](https://github.com/Ayush-Bansal08/k8s-project) · [Video walkthrough](https://drive.google.com/file/d/14-x45ra9iRBMOevZ0CqfLridM_HQqiSa/view?usp=sharing)
+A local-LLM CLI that generates Dockerfiles and checks them through **deterministic validation → Docker build → container smoke test**, with a bounded repair loop.
 
-</td>
-<td width="50%" valign="top">
+- **The implementation:** failure classification, retry budgets, repeated-failure detection, and a human-required stop for project-level dependency faults.
+- **The verification:** 186 documented automated tests using injected fakes; real Docker/Ollama evaluation is a separate, reproducible workflow.
+- **The boundary:** hardened smoke containers and redaction reduce risk; Docker builds still execute code and require trusted input.
 
-### [🗳️ PollForge — Cloud-Native Voting Platform](https://github.com/Ayush-Bansal08/PollForge)
+[Source](https://github.com/Ayush-Bansal08/Dockhealer/tree/main/src/dockhealer) · [Tests](https://github.com/Ayush-Bansal08/Dockhealer/tree/main/tests) · [Evaluation protocol](https://github.com/Ayush-Bansal08/Dockhealer/blob/main/docs/EVAL_PROTOCOL.md) · [Security model](https://github.com/Ayush-Bansal08/Dockhealer#security-model)
 
-**Distributed Systems · Python · C# · Node.js · AKS**
+### 03 / [PollForge — Event-Driven Voting on Azure](https://github.com/Ayush-Bansal08/PollForge)
 
-A polyglot, event-driven voting platform using **Redis, PostgreSQL, Docker and Azure Kubernetes Service**. Includes OIDC-based CI/CD, persistent storage, monitoring, and documented infrastructure trade-offs.
+**Python · C# / .NET · Node.js · Redis · PostgreSQL · AKS**
 
-[**Explore code & architecture →**](https://github.com/Ayush-Bansal08/PollForge)
+A five-service voting stack: Flask queues votes in Redis, a .NET worker persists them in PostgreSQL, and Node.js broadcasts live results over Socket.IO.
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+- **The infrastructure:** Kubernetes workloads, StatefulSet-backed PostgreSQL storage, TLS configuration, and Prometheus monitoring.
+- **The delivery path:** GitHub Actions builds SHA-tagged images for ACR and deploys to AKS using Azure OIDC.
+- **The trade-off:** asynchronous processing gives eventual consistency; the README documents the current queue-loss window and production hardening work.
 
-### [🐳 DockHealer — Verified LLM Docker Automation](https://github.com/Ayush-Bansal08/Dockhealer)
+[Architecture](https://github.com/Ayush-Bansal08/PollForge#architecture) · [Deployment workflow](https://github.com/Ayush-Bansal08/PollForge/blob/main/.github/workflows/deploy.yaml) · [Kubernetes manifests](https://github.com/Ayush-Bansal08/PollForge/tree/main/k8s-specifications) · [Video walkthrough](https://drive.google.com/file/d/1pVh277Bao5hEftS_H58uTEaM6GU1tDl0/view?usp=sharing)
 
-**AI Tooling · Python · Docker · Ollama · Terraform**
+<sub>Cloud demo environments may be stopped when idle. Source, architecture, and configuration remain available for review.</sub>
 
-A local-LLM Dockerfile generator where model output must pass deterministic rules, real builds, and smoke tests. Includes **bounded self-repair**, failure classification, security protections and **186 automated tests**.
+## Experience
 
-[**Explore code & tests →**](https://github.com/Ayush-Bansal08/Dockhealer)
-
-</td>
-<td width="50%" valign="top">
-
-### [🔬 ML Research — Hollywood Sentiment Analysis](https://github.com/Ayush-Bansal08/sentimentanalysis-Hollywood)
-
-**Research · NLP · Python · Transformer Models**
-
-Research code and supporting materials exploring sentiment and abusive language in Hollywood film dialogue from 1950–2024 using transformer-based models.
-
-[**Explore research repository →**](https://github.com/Ayush-Bansal08/sentimentanalysis-Hollywood)
-
-</td>
-</tr>
-</table>
-
-> **A note on demos:** Cloud demo environments may be stopped when idle to control costs. Each repository includes technical documentation you can inspect without a running deployment.
-
-## Engineering experience
-
-**Software Engineering Intern — Finn (Airforge Tech)** · *May–July 2026, Bengaluru*
-
-- Contributed **25+ merged pull requests** across **5+ production services**, spanning AI voice agents, backend APIs, authentication, WhatsApp automation and customer-facing interfaces.
-- Built LLM-powered agent workflows, REST APIs and event-driven backend services for real customer-facing use cases.
-- Worked with **Docker, Kubernetes, Nginx and CI/CD** in staging and production deployment workflows.
-
-**AI/ML Research Intern — UNSW Sydney** · *May–August 2026, Remote*
-
-- Worked with Dr. Rohitash Chandra on unsupervised ML for hyperspectral satellite data and mineral exploration.
-- Corrected a critical training issue, improving reported mineral recall from **0% to 76.6%**.
-- Audited **eight pipeline defects** and built evaluation workflows using hyperparameter sweeps, statistical significance tests, stability analysis and ablations.
-
-## Tools I work with
-
-| Area | Technologies |
+| Role | Work |
 | --- | --- |
-| **Languages** | Python, JavaScript, TypeScript, Go (Kubernetes operator), Java, C/C++, C#, Bash |
-| **Backend & data** | Node.js, Express, Flask, PostgreSQL, MongoDB, Redis, REST APIs, WebSockets |
-| **Cloud & platform** | Kubernetes, Docker, Azure, AKS, ACR, Terraform, Helm, Linux, Nginx |
-| **Delivery & security** | GitHub Actions, ArgoCD, Argo Rollouts, OIDC, Trivy, Kyverno |
-| **Observability** | Prometheus, Grafana |
-| **AI/ML** | Ollama, LangChain, Hugging Face, scikit-learn, NumPy, Pandas |
+| **Software Engineering Intern · Finn / Airforge Tech**<br>May–July 2026 · Bengaluru | 25+ merged PRs across 5+ production services: AI voice agents, backend APIs, authentication, WhatsApp automation, and dashboards. Built LLM workflows and worked on staging and production delivery with Docker, Kubernetes, Nginx, and CI/CD. |
+| **AI/ML Research Intern · UNSW Sydney**<br>May–August 2026 · Remote | Worked with Dr. Rohitash Chandra on hyperspectral mineral exploration using SOMs and autoencoders. Corrected a training defect that improved reported mineral recall from 0% to 76.6%; audited eight pipeline bugs and developed evaluation with sweeps, significance tests, stability analysis, and ablations. |
+
+## Engineering toolkit
+
+| Focus | Tools I use |
+| --- | --- |
+| **Backend & data** | Python, TypeScript / JavaScript, Node.js, Express, Flask, PostgreSQL, Redis, MongoDB, REST APIs, WebSockets |
+| **Cloud & platforms** | Go / Kubebuilder, Docker, Kubernetes, Azure, AKS, ACR, Terraform, Helm, Linux |
+| **Delivery & operations** | GitHub Actions, ArgoCD, Argo Rollouts, OIDC, Nginx, Prometheus, Grafana, Trivy, Kyverno |
+| **AI & evaluation** | Ollama, LangChain, Hugging Face, scikit-learn, NumPy, Pandas, pytest |
 
 ## Recognition
 
-🏆 **LNMHacks 8.0 — Partner Prize Winner (January 2026)**  
-Won the **Viral Consumer Apps** track; **$600 prize**, among **500+ participants**.
+**LNMHacks 8.0 · Partner Prize Winner · January 2026**  
+Won the Viral Consumer Apps track — **$600 prize**, among **500+ participants**.
 
-## Let's connect
+---
 
-I'm interested in engineering teams solving difficult problems in **distributed systems, developer infrastructure, backend engineering, and reliable AI systems**.
-
-**[LinkedIn](https://www.linkedin.com/in/ayush-bansal-21b12a311/) · [Email](mailto:ab2621339@gmail.com) · [Browse repositories](https://github.com/Ayush-Bansal08?tab=repositories)**
+Interested in **backend systems, developer infrastructure, and reliable AI tooling**?  
+[Let's connect on LinkedIn](https://www.linkedin.com/in/ayush-bansal-21b12a311/) or [email me](mailto:ab262133@gmail.com).
