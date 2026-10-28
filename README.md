@@ -1,153 +1,110 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00C2FF&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Ayush+Bansal;SWE+Intern+%40+Finn+(Airforge+Tech);AI%2FML+Researcher+%40+UNSW+Sydney;Full-Stack+%7C+AI+%7C+Web3+Developer" alt="Typing SVG" />
-</h1>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/ayush-bansal-21b12a311/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:ab2621339@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://github.com/Ayush-Bansal08"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <img src="https://komarev.com/ghpvc/?username=Ayush-Bansal08&label=Profile+Views&color=0e75b6&style=for-the-badge" alt="profile views"/>
-</p>
-
----
-
-## 🚀 About Me
-
-- 🎓 B.Tech ECE @ LNM Institute of Information and Technology (2024–2028)
-- 💼 SWE Intern @ Finn (Airforge Tech) · AI/ML Research Intern @ UNSW Sydney
-- 🏆 LNMHacks 8.0 Partner Prize Winner — $600 · 1st place, 500+ participants
-- 🔭 Currently building LLM-powered agent workflows & MLOps pipelines
-- 🎯 Focus: Full-Stack Engineering · LLM / AI Agents · Web3 & Blockchain
-- 💬 Open to SWE / AI / Full-Stack roles & research collaborations
-
----
-
-## 💼 Experience
-
-### 🔷 Software Engineering Intern — Finn (Airforge Tech Private Limited) `May 2026 – Present`
-> *Bengaluru, India*
-
-- 🔀 Contributed **15+ merged pull requests** across 5+ production services — AI voice agents, backend APIs, WhatsApp automation, and customer-facing dashboards
-- 🤖 Built and deployed **LLM-powered agent workflows** collaborating across frontend, backend, and infrastructure teams
-- ⚙️ Designed scalable **backend services, REST APIs, and event-driven workflows** powering real-time conversational AI & enterprise automation
-- 🐳 Managed **staging & production environments** with **Docker, Kubernetes, Nginx & CI/CD pipelines** — twice-weekly deployments
-
-### 🔷 AI/ML Research Intern — UNSW Sydney `May 2026 – Present`
-> *Under Dr. Rohitash Chandra · Sydney, Australia (Remote)*
-
-- 📄 Contributed to a **published NLP research project** — analyzing 1,000+ Hollywood movie subtitles (1950–2024)
-- ⚡ Reduced **LLM inference latency by 10–25x** via GPU batching & Automatic Mixed Precision (AMP)
-- 🔬 Implemented **production-grade MLOps workflows** — dependency management, automated testing, CI pipelines, Dockerized deployments, restructured 250+ MB of datasets
-- ✅ Resolved **15+ critical correctness, scaling & reproducibility issues** across data pipelines
-
----
-
-## 🧠 Featured Projects
-
-### 🔹 [MarketMind-AI](https://github.com/Ayush-Bansal08) — AI Investment Analysis Platform
-`JavaScript · Node.js · Express.js · MongoDB · Inngest · LangChain · HuggingFace · Scikit-learn`
-
-- Built an **AI-powered investment analysis platform** with a **hybrid retrieval system** using vector embeddings, domain-aware filtering, semantic search & LLMs
-- Designed an **event-driven architecture with Inngest** for real-time processing & automated trend detection using **hierarchical clustering + LLM summarization**
-
----
-
-### 🔹 [FlashEvent](https://github.com/Ayush-Bansal08) — Full-Stack Web3 Prediction Platform
-`JavaScript · Next.js · Solidity · Foundry · ethers.js · Chainlink · Node.js · MongoDB · Farcaster SDK`
-
-- Developed a **full-stack Web3 decentralized prediction platform** integrated with **MetaMask & Farcaster**, using React.js, ethers.js & real-time blockchain state management
-- Engineered **Solidity smart contracts** to automate betting, distribute payouts & implement complex **market mechanics with proportional payout algorithms**
-
----
-
-### 🔹 [AI-Ticket-System](https://github.com/Ayush-Bansal08) — Intelligent Ticket Assignment
-`JavaScript · React.js · Node.js · Express.js · MongoDB · JWT · Inngest · Nodemailer`
-
-- Built an **AI/ML-powered ticketing system** using **skill-based routing** for intelligent task assignment across moderators with automatic classification & prioritization
-- Designed a scalable **event-driven backend with Inngest**, secured by **JWT authentication & role-based access control**
-
----
-
-## 🛠️ Tech Stack
-
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
-
-### Frontend & Backend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-
-### AI / ML & Data Science
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
-### DevOps & Cloud
-![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-
-### Web3 & Blockchain
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
-![Web3.js](https://img.shields.io/badge/Web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white)
-![Chainlink](https://img.shields.io/badge/Chainlink-375BD2?style=for-the-badge&logo=chainlink&logoColor=white)
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Ayush-Bansal08&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" alt="GitHub Stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ayush-Bansal08&theme=tokyonight&hide_border=true" width="48%" alt="Streak Stats"/>
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayush-Bansal08&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="48%" alt="Top Languages"/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ayush-Bansal08&theme=tokyo-night&hide_border=true" width="96%" alt="Contribution Graph"/>
-</p>
-
----
-
-
-## 🏆 Achievements
-
 <div align="center">
 
-🥇 **LNMHacks 8.0** — Partner Prize Winner · **$600** · 1st place among **500+ participants**
+# Ayush Bansal
+
+### Software Engineer · Cloud & Platform Engineering · Applied AI
+
+**I build systems that ship reliably — from backend services and AI workflows to Kubernetes platforms and deployment automation.**
+
+[![GitHub](https://img.shields.io/badge/GitHub-Ayush--Bansal08-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ayush-Bansal08)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayush-bansal-21b12a311/)
+[![Email](https://img.shields.io/badge/Email-Get_in_touch-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ab2621339@gmail.com)
+
+*B.Tech, Electronics & Communication Engineering · LNMIIT Jaipur · Class of 2028*
+
+**Open to software engineering, backend, cloud infrastructure, platform engineering and AI engineering opportunities.**
 
 </div>
 
 ---
 
+## Selected work
 
-## 🎯 What I'm Currently Working On
+<table>
+<tr>
+<td width="50%" valign="top">
 
-```
-🔭  LLM-powered agent workflows @ Finn (Airforge Tech)
-🧪  NLP research on Hollywood subtitle sentiment @ UNSW Sydney
-📚  Deepening TypeScript, Next.js & MLOps
-🌐  Exploring Rust + WebAssembly
-```
+### [☸️ Helios — Kubernetes Developer Platform](https://github.com/Ayush-Bansal08/k8s-project)
 
----
+**Platform Engineering · Go · Kubernetes · ArgoCD · Azure**
 
-<p align="center">
-  <b>🤝 Open to collaborations on AI, Full-Stack & Web3 projects. Let's build something impactful!</b>
-</p>
+Built an internal developer platform with **GitOps deployment**, **Prometheus-driven canary rollouts and rollback**, and a **custom Go Kubernetes Operator** that provisions isolated per-PR preview environments.
 
+[**Explore code & architecture →**](https://github.com/Ayush-Bansal08/k8s-project) · [Video walkthrough](https://drive.google.com/file/d/14-x45ra9iRBMOevZ0CqfLridM_HQqiSa/view?usp=sharing)
+
+</td>
+<td width="50%" valign="top">
+
+### [🗳️ PollForge — Cloud-Native Voting Platform](https://github.com/Ayush-Bansal08/PollForge)
+
+**Distributed Systems · Python · C# · Node.js · AKS**
+
+A polyglot, event-driven voting platform using **Redis, PostgreSQL, Docker and Azure Kubernetes Service**. Includes OIDC-based CI/CD, persistent storage, monitoring, and documented infrastructure trade-offs.
+
+[**Explore code & architecture →**](https://github.com/Ayush-Bansal08/PollForge)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [🐳 DockHealer — Verified LLM Docker Automation](https://github.com/Ayush-Bansal08/Dockhealer)
+
+**AI Tooling · Python · Docker · Ollama · Terraform**
+
+A local-LLM Dockerfile generator where model output must pass deterministic rules, real builds, and smoke tests. Includes **bounded self-repair**, failure classification, security protections and **186 automated tests**.
+
+[**Explore code & tests →**](https://github.com/Ayush-Bansal08/Dockhealer)
+
+</td>
+<td width="50%" valign="top">
+
+### [🔬 ML Research — Hollywood Sentiment Analysis](https://github.com/Ayush-Bansal08/sentimentanalysis-Hollywood)
+
+**Research · NLP · Python · Transformer Models**
+
+Research code and supporting materials exploring sentiment and abusive language in Hollywood film dialogue from 1950–2024 using transformer-based models.
+
+[**Explore research repository →**](https://github.com/Ayush-Bansal08/sentimentanalysis-Hollywood)
+
+</td>
+</tr>
+</table>
+
+> **A note on demos:** Cloud demo environments may be stopped when idle to control costs. Each repository includes technical documentation you can inspect without a running deployment.
+
+## Engineering experience
+
+**Software Engineering Intern — Finn (Airforge Tech)** · *May–July 2026, Bengaluru*
+
+- Contributed **25+ merged pull requests** across **5+ production services**, spanning AI voice agents, backend APIs, authentication, WhatsApp automation and customer-facing interfaces.
+- Built LLM-powered agent workflows, REST APIs and event-driven backend services for real customer-facing use cases.
+- Worked with **Docker, Kubernetes, Nginx and CI/CD** in staging and production deployment workflows.
+
+**AI/ML Research Intern — UNSW Sydney** · *May–August 2026, Remote*
+
+- Worked with Dr. Rohitash Chandra on unsupervised ML for hyperspectral satellite data and mineral exploration.
+- Corrected a critical training issue, improving reported mineral recall from **0% to 76.6%**.
+- Audited **eight pipeline defects** and built evaluation workflows using hyperparameter sweeps, statistical significance tests, stability analysis and ablations.
+
+## Tools I work with
+
+| Area | Technologies |
+| --- | --- |
+| **Languages** | Python, JavaScript, TypeScript, Go (Kubernetes operator), Java, C/C++, C#, Bash |
+| **Backend & data** | Node.js, Express, Flask, PostgreSQL, MongoDB, Redis, REST APIs, WebSockets |
+| **Cloud & platform** | Kubernetes, Docker, Azure, AKS, ACR, Terraform, Helm, Linux, Nginx |
+| **Delivery & security** | GitHub Actions, ArgoCD, Argo Rollouts, OIDC, Trivy, Kyverno |
+| **Observability** | Prometheus, Grafana |
+| **AI/ML** | Ollama, LangChain, Hugging Face, scikit-learn, NumPy, Pandas |
+
+## Recognition
+
+🏆 **LNMHacks 8.0 — Partner Prize Winner (January 2026)**  
+Won the **Viral Consumer Apps** track; **$600 prize**, among **500+ participants**.
+
+## Let's connect
+
+I'm interested in engineering teams solving difficult problems in **distributed systems, developer infrastructure, backend engineering, and reliable AI systems**.
+
+**[LinkedIn](https://www.linkedin.com/in/ayush-bansal-21b12a311/) · [Email](mailto:ab2621339@gmail.com) · [Browse repositories](https://github.com/Ayush-Bansal08?tab=repositories)**
